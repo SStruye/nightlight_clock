@@ -7,11 +7,13 @@ This PCB design was an idea for a night light in combination with a clock. I fou
 
 <img src="content/layout.jpg" alt="pic" width="300"/> <img src="content/layout_2.jpg" alt="pic" width="300"/> <img src="content/persp1.jpg" alt="pic" width="280"/>
 
-## result
-<img src="content/persp2.jpg" alt="pic" width="800"/>
-
 # software
 - I had to edit the arduino liquidcrystal-I2C library to accomodate for the LCD using two LCD drivers. 1 for the top 2 rows and one for the bottom 2 rows. If i hadn't used a multiplexer
 this wouldn't have been necessary.
 - DMC40457_clock is a library i created to handle te logic behind the displaying of characters on to the lcd.
 - clock_software.ino is the arduino sketch that runs on the ESP12F.
+
+## result
+<img src="content/persp2.jpg" alt="pic" width="800"/>
+
+
