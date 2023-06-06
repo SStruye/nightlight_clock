@@ -12,8 +12,8 @@ Adafruit_AHT10 aht;
 DMC40457_clock display(0x20,40,4);
 
 // wifi for time
-const char *ssid     = "Duhaso2.4G";
-const char *password = "2.4_Rotselaar&DHS";
+const char *ssid     = "";
+const char *password = "";
 const long  utcOffsetInSeconds = 3600;
 bool update_display_flag = false;
 Ticker timer;
